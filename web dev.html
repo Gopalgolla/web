@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    font-family:'Poppins';
+}
+.container{
+    background:linear-gradient(rgb(47, 129, 47), rgb(117, 117, 8));
+    padding: 15px 10px;
+}
+
+.container .heading
+{
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.container .box-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;    
+
+    padding:50px;
+
+}
+
+.container .box-container .box{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 30px;
+    box-shadow: 0.5px 5px rgb(0, 0, 0,.2);
+}
+
+.container .box-container .box:hover{
+    transform: scale(1.03);
+
+}
+.container .box-container .box img{
+    width: 80px;
+}
+.container .box-container .box .btn{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    background-color: brown;
+    padding: 10px 30px;
+    border-radius: 5px;
+    
+
+}
+.container .box-container .box h3{
+    color:crimson;
+    font-size: 30px;
+    padding-bottom:10px;
+}
+.container .box-container .box p{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 15px;
+    line-height: 1.8;
+
+}
+
+@media screen and (max-width:768px)
+{
+    width: 100px;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="heading">Our Courses</div>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/ic1.png" alt="">
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor cumque sunt illum sit earum dolorum reiciendis non suscipit eaque! Expedita modi distinctio, sunt exercitationem magni voluptatum assumenda ea tempora.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/ic2.png" alt="">
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor cumque sunt illum sit earum dolorum reiciendis non suscipit eaque! Expedita modi distinctio, sunt exercitationem magni voluptatum assumenda ea tempora.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+            <div class="box">
+                <img src="images/ic3.png" alt="">
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor cumque sunt illum sit earum dolorum reiciendis non suscipit eaque! Expedita modi distinctio, sunt exercitationem magni voluptatum assumenda ea tempora.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/ic4.png" alt="">
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor cumque sunt illum sit earum dolorum reiciendis non suscipit eaque! Expedita modi distinctio, sunt exercitationem magni voluptatum assumenda ea tempora.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/ic5.png" alt="">
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor cumque sunt illum sit earum dolorum reiciendis non suscipit eaque! Expedita modi distinctio, sunt exercitationem magni voluptatum assumenda ea tempora.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/ic6.png" alt="">
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor cumque sunt illum sit earum dolorum reiciendis non suscipit eaque! Expedita modi distinctio, sunt exercitationem magni voluptatum assumenda ea tempora.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

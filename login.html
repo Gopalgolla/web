@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <style>
+            .main{
+                width: 100%;
+                height: 900px;
+                background-color: aliceblue;
+            }
+            img{
+                margin-left: 600px;
+              
+                width: 75px;
+                height: 75px;
+
+
+            }
+            .container{
+        background-color:white;
+                width: 500px;
+                height: 400px;
+                padding: 20px;
+                margin:auto;
+                margin-top: 10px;
+            }
+            h2{
+                text-align: center;
+                margin-top: 10px;
+            }
+            h4{
+                text-align: center;
+            }
+            input[type=Email], input[type=password]{
+                width: 100%;
+                padding: 10px 15px;
+                box-sizing: border-box;
+                margin: 8px 0;     
+            }
+            p{
+                margin-top: 30px;
+                margin-left: 385px;
+               color: blue;
+            }
+            button{
+                width: 100%;
+                height: 40px;
+                background: linear-gradient(to right,red,blue);
+               
+            }
+            h4 button{
+                color: red;
+            }
+        
+        </style>
+    
+    </head>
+    <body>
+        <div class="main">
+        <img src="cts.jpg" alt="">
+        <div class="container">
+            <h2>Login</h2>
+            <h4>Access to our dashboard</h4>
+          <label for="email">email</label>
+          <input type="Email" name="Email" placeholder="enter Email" id="a1"><br/>
+    
+          <label for="password">password</label>
+          <input style="display: none;" type="password" name="Password" placeholder="enter password" id="a2">
+          <a href="#" style="margin-left: 385px;" >Forget Password?</a>
+          <button>Login</button>
+        <h4>Dont't have an account yet?<a href="">Register</a></h4>
+        </div> poiut 
+    </div>
+    <script>
+        var a1 = document.getElementById("a1");
+        var a2= document.getElementById("a2");
+        
+        a1.addEventListener('keypress', function(e){
+            if(e.keyCode===13)
+            {
+                a2.style.display="block";
+            }
+        });
+    </script>
+    </body>
+    </head>
+    </html>

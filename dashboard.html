@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="main-div">
+        <form  id="dataform">
+
+            <label for="employee">employee</label>
+            <input type="text" id="employee" name="employee">
+    
+            <label for="projects">projects</label>
+            <input type="text" id="projects" name="projects">
+    
+            <label for="Date"> Date</label>
+            <input type="date" id="Date" name="Date">
+    
+            <label for="description">Day</label>
+            <input type="text" id="description" name="description">
+    
+            <label for="action">Action</label>
+            <input type="text" id="action" name="action">
+    
+            <input type="button" value="submit" id="button" onclick="AddRow()">
+    
+    
+          </form>
+    </div>
+
+    <table id="show">
+        <thead>
+            <tr>
+                <th>employee</th>
+                <th>projects</th>
+                <th> Date</th>
+                <th>description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+       
+    </table>
+    <script src="dashboard.js"></script>
+</body>
+</html>
